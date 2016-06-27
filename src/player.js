@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './components/App';
+import Main from './containers/main';
 import { Provider } from 'react-redux';
 import store from './store';
 
 const player = (
  <Provider store={store}>
-  <App />
+  <Main />
  </Provider>
 )
 

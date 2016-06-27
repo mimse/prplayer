@@ -5,7 +5,7 @@ const Controls = React.createClass({
     render() {
         return(
             <div className="controls">
-							<Play />
+			    <Play />
             </div>
         )
     }
